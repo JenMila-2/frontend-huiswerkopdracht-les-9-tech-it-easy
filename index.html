@@ -2,9 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <title>Tech It Easy Dashboard</title>
 </head>
-<body>
+<body class="flex-main-container">
+<h1>Tech It Easy Dashboard</h1>
 
+<div class="flex-inner-container-1">
+    <p>Total tv's sold: <span id="sold">[sold]</span> </p>
+    <p>Total purchased: <span id="purchased">[purchased]</span> </p>
+    <p>Remaining Stock: <span id="to-be-sold">[still to be sold]</span></p>
+</div>
+
+<div class="flex-inner-container-2">
+    <div>
+    <h4>Out of Stock models:</h4>
+    <ul id="out-of-stock-models"></ul>
+    </div>
+
+    <!--Toont het result van opdracht 3a-->
+    <!--<h4>List of all the brands we sell:</h4>
+    <ul id="brand-list"></ul>-->
+
+    <div>
+    <h4>TV Brand List:</h4>
+    <ul id="brand-inventory-list"></ul>
+    </div>
+
+    <div>
+    <h4>Philips TV Details: </h4>
+    <p>
+        <span id="philips-tv-brand">[Brand Type]</span><br>
+        <span id="philips-tv-price">[Brand Price]</span><br>
+        <span id="philips-tv-screen-size">[Brand Screen Size]</span>
+    </p>
+    </div>
+
+    <div class="inventory-list">
+    <h4>TV Inventory List: </h4>
+    <p id="tv-inventory"></p>
+    </div>
+
+</div>
+
+<script src="main.js"></script>
+<script src="opdracht1.js"></script>
+<script src="opdracht2.js"></script>
+<script src="opdracht3.js"></script>
+<script src="opdracht4.js"></script>
 </body>
 </html>

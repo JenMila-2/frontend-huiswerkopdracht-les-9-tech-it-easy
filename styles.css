@@ -1,0 +1,34 @@
+body {
+    font-family: Poppins, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+}
+
+.flex-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-inner-container-1 {
+    padding: 10px;
+}
+
+.flex-inner-container-2 > div {
+    padding: 20px;
+}
+
+#sold {
+    color: green;
+}
+
+#purchased {
+    color: blue;
+}
+
+#to-be-sold {
+    color: red;
+}
